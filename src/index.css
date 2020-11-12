@@ -1,0 +1,28 @@
+#root{
+    display: flex;
+}
+.left, .right {
+    width: 30%;
+}
+.container {
+    width: 40%;
+}
+.title {
+    text-align: center;
+}
+.field-container {
+    height: 60px;
+}
+.field-label {
+    display: grid;
+}
+.field-container-textarea {
+    height: 150px;
+}
+.form-textarea {
+    height: 100px;
+}
+.error-message {
+    margin-top: 0;
+    color: red;
+}
